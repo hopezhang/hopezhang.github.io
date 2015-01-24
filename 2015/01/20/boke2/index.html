@@ -233,6 +233,11 @@ apache占用内存的问题
         <p>说说我在安装wordpress的时候，遇到的那些坑吧。</p>
 <h3 id="apache占用内存的问题">apache占用内存的问题</h3>
 <p>由于是第一次自己独立做这些工作，所以在租服务器的时候，就选的最便宜的。用过的人可能都知道，对！就是1核512M内存的主机。用这个主机在安装软件的时候，没有任何问题！但是在跑起来wordpress之后，在控制台切换特别特别的卡。使用free命令查看后发现，apache占用内存非常多。后来升级成1G的主机以后，该问题仍就没有什么改善。由于不是很擅长调优这些东西，所以直接导致了我放弃这种方案。</p>
+<h3 id="wordpress由于内存不足引起的卡死问题">wordpress由于内存不足引起的卡死问题</h3>
+<p>安装wordpress的过程中，由于内存不足易导致数据库访问问题。</p>
+<h3 id="wordpress安装过程出错">wordpress安装过程出错</h3>
+<p>安装过程中出现下列问题：<br><img src="/img/Image.png" alt="wenti"></p>
+<p>这是由于wp-config.php这个文件配置的不对导致的。</p>
 
       
     </div>
@@ -269,6 +274,8 @@ document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static
 
 
  <nav id="pagination" >
+    
+    <a href="/2015/01/20/book3/" class="alignleft prev" >上一页</a>
     
     
     <a href="/2015/01/19/boke1/" class="alignright next" >下一页</a>
@@ -328,6 +335,8 @@ var duoshuoQuery = {short_name:"hopenzhang"};
   <ul class="entry">
   
     <li><a href="/categories/hexo/">hexo</a><small>3</small></li>
+  
+    <li><a href="/categories/vmware/">vmware</a><small>1</small></li>
   
     <li><a href="/categories/其他/">其他</a><small>1</small></li>
   
